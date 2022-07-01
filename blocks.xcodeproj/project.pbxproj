@@ -72,6 +72,7 @@
 		51CAEDF5286DACDF00A48013 /* sound1.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = sound1.wav; sourceTree = "<group>"; };
 		51CAEDF6286DACDF00A48013 /* sound4.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = sound4.wav; sourceTree = "<group>"; };
 		51CAEDFF286DADB100A48013 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		51CAEE01286EF57300A48013 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		5736800C57B282358C1D257B /* Pods-blocks.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-blocks.debug.xcconfig"; path = "Target Support Files/Pods-blocks/Pods-blocks.debug.xcconfig"; sourceTree = "<group>"; };
 		7BA778AE83A0432E5FE6A8C3 /* Pods_blocks.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_blocks.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		AE9EA175E9862B1C39F058B7 /* Pods-blocks.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-blocks.release.xcconfig"; path = "Target Support Files/Pods-blocks/Pods-blocks.release.xcconfig"; sourceTree = "<group>"; };
@@ -118,6 +119,7 @@
 		51CAEDB0286DAC3200A48013 /* blocks */ = {
 			isa = PBXGroup;
 			children = (
+				51CAEE01286EF57300A48013 /* Info.plist */,
 				51CAEDEE286DACDF00A48013 /* Sounds */,
 				51CAEDD5286DACBF00A48013 /* Utils */,
 				51CAEDC8286DAC9A00A48013 /* game */,
@@ -182,7 +184,6 @@
 				5736800C57B282358C1D257B /* Pods-blocks.debug.xcconfig */,
 				AE9EA175E9862B1C39F058B7 /* Pods-blocks.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -468,6 +469,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = blocks/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -498,6 +500,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = blocks/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
